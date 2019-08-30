@@ -19,6 +19,52 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product {
+  display: flex;
+  background-color: aqua;
+  align-content: space-between;
+  padding: 0px;
+  margin: 10;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.product > h1 {
+  display: flex;
+  background-color: aqua;
+  align-content: space-between;
+  padding: 0px;
+  margin: 10;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.details {
+  display: flex;
+  background-color: red;
+  align-content: space-between;
+  padding: 10px;
+  margin: 10;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  font-size: 30px;
+  font-family: fantasy;
 }
